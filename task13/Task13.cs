@@ -1,7 +1,7 @@
 ﻿
 using System.Threading.Channels;
 
-int number=new Random().Next(1,200);
+int number=new Random().Next(1,2000);
 Console.WriteLine("ввели цифру="+number);
 if (number / 100 > 0)
 {
