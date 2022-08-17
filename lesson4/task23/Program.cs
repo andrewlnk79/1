@@ -1,5 +1,10 @@
-﻿Console.WriteLine("введите число");
+﻿Console.WriteLine("введите число:");
 int num = int.Parse(Console.ReadLine());
-double res = Math.Pow(num, 3);
-System.Console.WriteLine("ваше число в кубе =" + res);
+if (num > 0)
+{
+    for (int i = 1; i <= num; i++)
+
+        System.Console.WriteLine(Math.Pow(i, 3) + " ");
+}
+
 
